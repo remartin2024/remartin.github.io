@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg");
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.topbars {
+	position: fixed;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.navbar {
+	//margin-left: auto;
+	//margin-right: auto;
+	width: 100%;
+	background: black;
+	height: 40px;
+	margin: 0px auto;
+	//padding-left: 0px;
+	//padding-right: 0px;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+	
+.navbar-links ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: flex;
+	float: right;
+}
+
+.navbar-title {
+	font-family: 'Syne Tactile';
+	color: gold;
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 30px;
+	padding-bottom: 5px;
+	float: left; 
+}
+	
+.navbar-links li:hover {
+	background-color: #949494;
+}
+	
+li a {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: #03FDFC;
+}
+
+
+.container-fluid {
+	padding-top: 50px;
+	width: 100%;
+}
+
+.header {
+	display: none;
+}
+
+.header h1 {
+	display: none;
+	text-align: center;
+	font-family: 'Syne Tactile';
+	color: gold;
+}
+
+.article {
+	width: 100%;
+}
+
+.article h1 {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #D4AF37;
+}
+
+.article p {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #F5F5F5;
+	text-align: justify;
+}
+
+.extra {
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	color: #F5F5F5;
+}
+
+.extra h2 {
+	margin-bottom: 10px;
+	color: #ebebff;
+	text-align: center;
+}
+
+.extra a {
+	margin-left: 30px;
+}
+
+hr {
+	width: 350px;
+	margin-right: 30px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+a {
+	color: #03FDFC;
+}
+
+.about-title {
+	width: 100%;
+	height: 30px;
+	background-color: #926F34;
+	margin-top: 15px;
+}
+
+.about-title h2 {
+	text-align: center;
+}
+
+.img1 {
+	width: 95%;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.about-text {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.about-text h2 {
+	text-align: center;
+}
+
+.information {
+	margin-top: 10px;
+	margin-left: 25px;
+	width: 90%;
+	color: white;
+	text-align: justify;
+}
+
+#footer {
+	width: 100%;
+	margin-top: 10px;
+	height: 40px;
+	background-color: black;
+	overflow: hidden;
+}
+
+.footer {
+	color: white;
+}
+
+@media (min-width: 768px) {
+	
+	.header {
+		display: block;
+		height: 80px;
+		width: 100%;
+		background-image: url("https://i.pinimg.com/originals/0d/99/1e/0d991eb2d8ae7b9d396438f7051f8971.jpg");
+		padding: 0px;
+		position: absolute;	
+	}
+	
+	.header h1 {
+		display: block;
+		text-align: center;
+		font-family: 'Syne Tactile';
+		color: gold;
+	}
+	
+	.container-fluid {
+		padding-top: 120px;
+	}
+}
+
+
+
+@media (min-width: 820px) {
+	.content {
+		width: 530px;
+		height: 350px;
+		float: left;
+		margin-left: 40px;
+		margin-top: 10px;
+	}
+	
+	hr {
+		display: none;
+	}
+	
+	.extra h2 {
+		float: left;
+		width: 180px;
+		padding-left: 10px;
+		
+	}
+	
+	.extra a {
+		margin-left: 10px;
+	}
+	
+	.extra {
+		width: 200px;
+		float: right;
+		margin-left: 20px;
+		margin-right: 0px;
+		padding-left: 8px;
+		text-align: center;
+	}
+	
+	.footer {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 920px) {
+	.content {
+		width: 600px;
+	}
+	
+	.extra {
+		width: 200px;
+	}
+}
+
+@media (min-width: 890px) {
+	.content {
+		width: 580px;
+	}
+	
+	.extra {
+		width: 200px;
+	}
+}
+
+
+
+@media (min-width: 1000px) {
+	.content {
+		width: 700px;
+		font-size: 25px;		
+	}
+	
+	.extra {
+		width: 220px;
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 1230px) {
+	
+	.content {
+		margin-top: 15px;
+		width: 830px;
+		float: left;
+		margin-left: 70px;
+	}
+	
+	
+	.extra {
+		width: 315px;
+		height: 90px;
+		text-align: center;
+		font-size: 23px;
+	}
+}
+
+
+@media (min-width: 1400px) {
+	
+	.content {
+		width: 850px;
+		margin-left: 100px;
+	}
+	
+
+	.extra {
+		width: 315px;
+		height: 90px;
+		text-align: center;
+	}
+}
+

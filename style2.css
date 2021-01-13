@@ -1,0 +1,224 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg");
+	width: 100%;
+}
+
+.topbars {
+	position: fixed;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.navbar {
+	//margin-left: auto;
+	//margin-right: auto;
+	width: 100%;
+	background: black;
+	height: 40px;
+	margin: 0px auto;
+	align-items: center;
+	justify-content: space-between;
+	poition: fixed;
+	
+}
+	
+.navbar-links ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: flex;
+	float: right;
+}
+
+.navbar-title {
+	font-family: 'Syne Tactile';
+	color: gold;
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 30px;
+	padding-bottom: 5px;
+	float: left; 
+}
+	
+.navbar-links li:hover {
+	background-color: #949494;
+}
+	
+li a {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: #03FDFC;
+}
+
+
+
+.header {
+	display: none;
+	
+}
+
+.container-fluid {
+	width: 100%;
+	padding-top: 45px;
+	overflow: hidden;
+}
+
+
+#picture {
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 20px;
+
+}
+
+.picture {
+	width: 100%;
+	position: center;
+	height: 400px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.text {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+
+.text h1 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-left: 0px;
+}
+
+.essay {
+	max-height: 500px;
+	color: orange;
+	text-align: justify;
+	text-indent:45px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-right: 35px;
+	overflow: auto;
+}
+
+
+#footer {
+	width: 100%;
+	margin-top: 10px;
+	height: 40px;
+	background-color: black;
+	overflow: hidden;
+}
+
+.footer {
+	color: white;
+}
+
+
+
+@media (min-width: 768px) {
+	.header {
+		display: block;
+		height: 80px;
+		width: 100%;
+		background-image: url("https://i.pinimg.com/originals/0d/99/1e/0d991eb2d8ae7b9d396438f7051f8971.jpg");
+		padding: 0px;
+		position: absolute;
+	}
+
+	.header h1 {
+		text-align: center;
+		font-family: 'Syne Tactile';
+		color: gold;
+	}
+	
+	.container-fluid {
+		width: 100%;
+		padding-top: 150px;
+		overflow: hidden;
+	}
+	
+	.picture {
+		width: 90%;
+		height: 600px;
+		margin-left: 40px;
+	}
+	
+	.text {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.picture {
+		width: 80%;
+		height: 650px;
+		margin-left: 110px;
+	}
+	
+	.picture {
+		width: 40%;
+		height: 550px;
+		margin-left: 50px;
+		float: left;
+		margin-top: 65px;
+	}
+	
+	.text {
+		border: 3px double black;
+		float: left;
+		width: 40%;
+		margin-left: 80px;
+		overflow: hidden;
+	}
+	
+	.essay {
+		max-height: 560px;
+		color: orange;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+}
+
+
+@media (min-width: 1280px) {
+	
+	.container-fluid {
+		overflow: visible;
+	}
+	
+	.picture {
+		width: 40%;
+		height: 600px;
+		margin-left: 50px;
+		margin-top: 10px;
+		float: left;
+	}
+	
+	.text {
+		border: 3px double black;
+		float: left;
+		width: 40%;
+		margin-left: 80px;
+
+	}
+	
+	.essay {
+		max-height: 500px;
+		color: orange;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+}	
